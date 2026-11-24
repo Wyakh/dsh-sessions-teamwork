@@ -1,0 +1,26 @@
+# Local-only handoff notes, skills and private manual test work.
+.local-dev/
+AGENTS.md
+CLAUDE.md
+# Dependencies, caches and generated test evidence can contain absolute paths/prompts.
+node_modules/
+tests/.runtime/
+tests/.results/
+.release-work/
+coverage/
+*.log
+*.tmp
+*.bak
+# Credentials and private environment files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+# Machine/editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

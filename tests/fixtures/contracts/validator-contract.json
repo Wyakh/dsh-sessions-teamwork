@@ -1,0 +1,15 @@
+{
+  "name": "validator-starting-contract",
+  "version": 1,
+  "payload": {
+    "type": "object",
+    "requiredProperty": "greeting",
+    "valueType": "string",
+    "valueRule": "One or more lowercase ASCII words separated by exactly one ordinary space; no leading or trailing space.",
+    "example": { "greeting": "hello world" },
+    "additionalPropertiesAllowed": true,
+    "normalizationAllowed": false
+  },
+  "authority": "This is a provisional team contract, not a fixed user requirement. Inspect your own starting contract independently. If a conflict is discovered, report the exact difference and participate in a genuinely agreed resolution; do not prescribe another member's proposal mechanism or speak/vote on their behalf.",
+  "completion": "Independently validate the agreed final payload and record concise evidence. A small useful test set is enough; do not build a general-purpose JSON conformance framework."
+}

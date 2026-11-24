@@ -1,0 +1,25 @@
+{
+  "name": "@local/session-coordination",
+  "version": "0.6.0",
+  "private": true,
+  "description": "Session teams for DeepSeek Harness: reviewed dispatch, independent native Sessions, trusted peer handoffs and bounded wait reassessment.",
+  "license": "MIT",
+  "author": "Wyakh",
+  "repository": { "type": "git", "url": "git+ssh://git@github.com/Wyakh/dsh-sessions-teamwork.git" },
+  "homepage": "https://github.com/Wyakh/dsh-sessions-teamwork#readme",
+  "bugs": { "url": "https://github.com/Wyakh/dsh-sessions-teamwork/issues" },
+  "type": "module",
+  "engines": { "dsh": "0.2.2-rc.5", "node": ">=24.9.0" },
+  "exports": { ".": "./index.js", "./client": "./client.cjs", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg", "./package.json": "./package.json" },
+  "files": ["index.js", "client.cjs", "cordis.patch.yml", "lib/adapter.cjs", "lib/core.cjs", "lib/legacy-v2.cjs", "lib/legacy-v3.cjs", "lib/legacy-v4.cjs", "lib/legacy-v5.cjs", "lib/environment.cjs", "lib/wake.cjs", "locale/*.json", "icon.svg", "README.md", "LICENSE", "CHANGELOG.md", "SECURITY.md", "docs/INSTALL.md", "docs/BEHAVIOR.md", "docs/VERIFICATION.md"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-connection", "@deepseek-ai/dsh-client-locale", "@deepseek-ai/dsh-client-ui-layout", "@deepseek-ai/dsh-client-ui-sidebar", "@deepseek-ai/dsh-client-ui-workspace", "@deepseek-ai/dsh-api-session-controller", "@deepseek-ai/dsh-client-ui-sidebar-right"] }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "4.1.0", "@deepseek-ai/dsh-storage-domain": "0.2.2-rc.5", "@deepseek-ai/dsh-llm": "0.2.2-rc.5", "@deepseek-ai/dsh-typert-protocol": "0.2.2-rc.5", "@deepseek-ai/dsh-workspace": "0.2.2-rc.5", "@deepseek-ai/dsh-session": "0.2.2-rc.5", "zod": "4.6.6"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": { "optional": true }, "@deepseek-ai/dsh-storage-domain": { "optional": true }, "@deepseek-ai/dsh-llm": { "optional": true }, "@deepseek-ai/dsh-typert-protocol": { "optional": true }, "@deepseek-ai/dsh-workspace": { "optional": true }, "@deepseek-ai/dsh-session": { "optional": true }, "zod": { "optional": true }
+  }
+}

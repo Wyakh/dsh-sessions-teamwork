@@ -1,0 +1,14 @@
+{
+  "name": "producer-starting-contract",
+  "version": 1,
+  "payload": {
+    "type": "object",
+    "requiredProperty": "greeting",
+    "valueType": "string",
+    "valueRule": "One or more uppercase ASCII words separated by exactly one ordinary space; no leading or trailing space.",
+    "example": { "greeting": "HELLO WORLD" },
+    "additionalPropertiesAllowed": true
+  },
+  "authority": "This is a provisional team contract, not a fixed user requirement. A change requires explicit agreement of the actual concerned teammates on one exact shared revision; preserve a short change record.",
+  "completion": "An initial payload is a draft. Remain responsible for justified in-scope revisions until independent validation accepts the agreed final contract."
+}

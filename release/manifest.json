@@ -1,0 +1,122 @@
+{
+  "package": "@local/session-coordination",
+  "version": "0.6.0",
+  "license": "MIT",
+  "dsh": "0.2.2-rc.5",
+  "archive": "session-coordination-0.6.0.tgz",
+  "sha256": "4470602e2ad6c668b3a00afc4f413ec69023eb65a6c6ad0ce6e52aeb7e6ffb97",
+  "bytes": 155045,
+  "format": "npm-compatible ustar+gzip",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1556,
+      "sha256": "736000c1aa0a3103a35f5f0c0a4e52e5f05ef3d98a9b0c5ac72a53f3a72ffef6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1062,
+      "sha256": "615acf2aef5f08c87c92207f04376c0e6e343754f2d14a9d70357b9bf81c9fb9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5704,
+      "sha256": "5f6aa05d1385670494e8bf0cc88cd20ad7bad73e26f189e27e946544f25f5cca"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 3506,
+      "sha256": "e69c4441558d33a735d263a194101a21ea5503d52d6e953ed4a1c1f135cc0299"
+    },
+    {
+      "path": "client.cjs",
+      "bytes": 115679,
+      "sha256": "f8f40b917ae66a0439eb9fa664439ac66e86efe83c8e60be5ace8523adee742a"
+    },
+    {
+      "path": "cordis.patch.yml",
+      "bytes": 100,
+      "sha256": "83d919f2359717fd47a031dc3d9f6c500f7473b20af229b3c78887c51c6362a7"
+    },
+    {
+      "path": "docs/BEHAVIOR.md",
+      "bytes": 18088,
+      "sha256": "b3e5837d716445200b543b91d76ce449873fde09b5fecc6a82246cbcc6acb034"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 5005,
+      "sha256": "7b4d9c96dda718ba8095b28e6ef7b632b4ec1d3e1ef3d914a7d4b18ba380593b"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 4507,
+      "sha256": "c5aee182811a653ed4697541aded66ef6a7bc56cb95c9be4ba4067f36c56b9c9"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 429,
+      "sha256": "9ad1e008669c7133983c82cde7cf52e35bea16ad39391b0329926591ef8cfb88"
+    },
+    {
+      "path": "index.js",
+      "bytes": 78,
+      "sha256": "3312add810d96fbc662b20abdc4cedcb014773ae0caa8a71c4c99f1e22721dc0"
+    },
+    {
+      "path": "lib/adapter.cjs",
+      "bytes": 45563,
+      "sha256": "39950a06369e66efbf681b0249df580a031f4d9c07c7f8de1c12750d35e4a150"
+    },
+    {
+      "path": "lib/core.cjs",
+      "bytes": 118825,
+      "sha256": "e54d7f6350569ed8e2381abc2a82edbe0d696fad4adc66f73bfdd7acd3c4fd54"
+    },
+    {
+      "path": "lib/environment.cjs",
+      "bytes": 10167,
+      "sha256": "a6bc39b4fc73b0bf61c1d2eec6dbbe45c6a698067367e615f8c7c7517969720d"
+    },
+    {
+      "path": "lib/legacy-v2.cjs",
+      "bytes": 36470,
+      "sha256": "277b1dc6752c42f365fe29cc774d63a606e1e0470f6ce86bab3dcf1c00a6af0d"
+    },
+    {
+      "path": "lib/legacy-v3.cjs",
+      "bytes": 54294,
+      "sha256": "21bc1dcfa117fab6cb247562ac7961015a354b608d073ebcdc69fa6831baf13e"
+    },
+    {
+      "path": "lib/legacy-v4.cjs",
+      "bytes": 61390,
+      "sha256": "622a276d310dc495f276b712255929fcc4f7876424fc9a41629ddfa552979599"
+    },
+    {
+      "path": "lib/legacy-v5.cjs",
+      "bytes": 100933,
+      "sha256": "767b400bfca68a56b6b833644f7db5dda4104a559becaf470da438bd65dcabd0"
+    },
+    {
+      "path": "lib/wake.cjs",
+      "bytes": 14663,
+      "sha256": "7f40b568559ef71695bb477239de4a178eaa7b0e5d77868caaa3202903b77074"
+    },
+    {
+      "path": "locale/en.json",
+      "bytes": 329,
+      "sha256": "bf3e4e7b4145b69c6533c31eedb1e10d59ffa5d481fc9c1f5c6769bfc495e882"
+    },
+    {
+      "path": "locale/zh.json",
+      "bytes": 336,
+      "sha256": "78ba8c4c0a65e38bd0765bd7931825912cd3b8e9effb320a1df9924cc419d111"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2222,
+      "sha256": "e063c53bd48f519cd66186c80720c28d8b8762922bf3f9df2d060048def1cada"
+    }
+  ]
+}

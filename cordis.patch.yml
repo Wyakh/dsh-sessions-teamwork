@@ -1,0 +1,4 @@
+- insert:
+    - id: session-coordination
+      name: '@local/session-coordination'
+      config: {}

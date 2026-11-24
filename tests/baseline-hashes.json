@@ -1,0 +1,26 @@
+{
+  "baselineVersion": "0.5.2",
+  "runtime": "0.2.2-rc.5",
+  "innerSchema": 6,
+  "sourceHashes": {
+    "package.json": "c10c25b316562307d3750343d8bd454592bc6a63115fc940075b68ac7460cc6c",
+    "index.js": "3312add810d96fbc662b20abdc4cedcb014773ae0caa8a71c4c99f1e22721dc0",
+    "client.cjs": "f8f40b917ae66a0439eb9fa664439ac66e86efe83c8e60be5ace8523adee742a",
+    "cordis.patch.yml": "83d919f2359717fd47a031dc3d9f6c500f7473b20af229b3c78887c51c6362a7",
+    "icon.svg": "9ad1e008669c7133983c82cde7cf52e35bea16ad39391b0329926591ef8cfb88",
+    "README.md": "6eb78a917774d8b66248ed2207d6ca2a6dfa3e3315e678660e613e711943324f",
+    "TESTING.md": "8890a5ada3c19960e2e4407ae03de5346db5579261297bf7971f2e0fd901833d",
+    "lib/adapter.cjs": "39950a06369e66efbf681b0249df580a031f4d9c07c7f8de1c12750d35e4a150",
+    "lib/core.cjs": "e54d7f6350569ed8e2381abc2a82edbe0d696fad4adc66f73bfdd7acd3c4fd54",
+    "lib/environment.cjs": "a6bc39b4fc73b0bf61c1d2eec6dbbe45c6a698067367e615f8c7c7517969720d",
+    "lib/legacy-v2.cjs": "277b1dc6752c42f365fe29cc774d63a606e1e0470f6ce86bab3dcf1c00a6af0d",
+    "lib/legacy-v3.cjs": "21bc1dcfa117fab6cb247562ac7961015a354b608d073ebcdc69fa6831baf13e",
+    "lib/legacy-v4.cjs": "622a276d310dc495f276b712255929fcc4f7876424fc9a41629ddfa552979599",
+    "lib/legacy-v5.cjs": "767b400bfca68a56b6b833644f7db5dda4104a559becaf470da438bd65dcabd0",
+    "lib/wake.cjs": "7f40b568559ef71695bb477239de4a178eaa7b0e5d77868caaa3202903b77074",
+    "locale/en.json": "bf3e4e7b4145b69c6533c31eedb1e10d59ffa5d481fc9c1f5c6769bfc495e882",
+    "locale/zh.json": "78ba8c4c0a65e38bd0765bd7931825912cd3b8e9effb320a1df9924cc419d111",
+    "test-inputs/producer-contract.json": "93d4603bd4e805762c1c83cac65d074ae46d22ba1fbcb02d93fa811715bd28e4",
+    "test-inputs/validator-contract.json": "9d4f68f1aaf2a2389fe56739917e7928bd59ea63ad039c863565f2ab6c53c7bb"
+  }
+}

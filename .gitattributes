@@ -1,0 +1,7 @@
+# Preserve exact tested bytes, including historical CRLF/mixed runtime sources.
+# Do not let platform autocrlf settings invalidate the pinned baseline or archive.
+* -text
+*.tgz binary
+*.png binary
+*.jpg binary
+*.webp binary
